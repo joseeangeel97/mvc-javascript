@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/academia.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Aprender o trabajar, esa es la cuestión</h1>
+    </header>
+    <main>
+      <form>
+        <h3>Grabbing information</h3>
+        <label for="code">Código del curso</label>
+        <input
+          type="text"
+          name="code"
+          id="code"
+          autocomplete="off"
+          placeholder="Ex:DAW001/25"
+        />
+        <label for="name">Nombre del curso</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          autocapitalize="on"
+          placeholder="Ex:Esquilar ratones"
+          autocomplete="off"
+        />
+        <button type="submit"></button>
+      </form>
+      <section>
+        <header>
+          <article>
+            <button id="add">Añadir curso</button
+            ><button id="delete">Eliminar curso</button
+            ><button id="addhidden">Mostrar curso oculto</button>
+          </article>
+          <article id="contador">
+            <p>Cursos visibles:</p>
+            <p>Total cursos almacenados:</p>
+          </article>
+        </header>
+        <h4>Lista de los cursos</h4>
+        <ol>
+          <li>Curso BIOHACKING y su código ACR001/25</li>
+          <li>Curso RESILIENCIA y su código RSL002/19</li>
+        </ol>
+      </section>
+    </main>
+    <footer><small>༺༒༼༒༽༒༻</small></footer>
+
+    <script type="module" src="js/contolador.js"></script>
+  </body>
+</html>
